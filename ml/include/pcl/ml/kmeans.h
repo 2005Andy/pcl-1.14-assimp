@@ -146,6 +146,10 @@ public:
     return centroids_;
   }
 
+ const PointsToClusters& getPointsToClusters() const {
+    return points_to_clusters_;
+  }
+
 protected:
   // Members derived from the base class
   /*
